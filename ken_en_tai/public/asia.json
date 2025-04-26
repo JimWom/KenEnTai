@@ -1,0 +1,47 @@
+{
+    "type": "Topology",
+    "objects": {
+      "asia": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "properties": { "name": "Japan" },
+            "arcs": [[0]]
+          },
+          {
+            "type": "Polygon",
+            "properties": { "name": "Philippines" },
+            "arcs": [[1]]
+          },
+          {
+            "type": "Polygon",
+            "properties": { "name": "China" },
+            "arcs": [[2]]
+          },
+          {
+            "type": "Polygon",
+            "properties": { "name": "SouthKorea" },
+            "arcs": [[3]]
+          },
+          {
+            "type": "Polygon",
+            "properties": { "name": "NorthKorea" },
+            "arcs": [[4]]
+          }
+        ]
+      }
+    },
+    "arcs": [
+      [[[140, 36], [1, 0], [0, 1], [-1, 0], [0, -1]]],           // Japan
+      [[[123, 12], [1, 0], [0, 1], [-1, 0], [0, -1]]],           // Philippines
+      [[[105, 35], [3, 0], [0, 3], [-3, 0], [0, -3]]],           // China
+      [[[127, 37], [1, 0], [0, 1], [-1, 0], [0, -1]]],           // South Korea
+      [[[125, 40], [1, 0], [0, 1], [-1, 0], [0, -1]]]            // North Korea
+    ],
+    "transform": {
+      "scale": [0.5, 0.5],
+      "translate": [100, 10]
+    }
+  }
+  
